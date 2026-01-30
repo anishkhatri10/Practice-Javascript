@@ -9,5 +9,6 @@ x = null;
 isFollow = true
 console.log(fulName);
 console.log(x);
+console.log(age);
 
 
