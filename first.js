@@ -15,10 +15,10 @@
 fulName = "anish"; // "=" this sign is assignment operater
 age = 19;
 price = 99.99;
-x = null;
+d = null;
 isFollow = true;
 console.log(fulName);
-console.log(x);
+console.log(d);
 console.log(age);
 
 
@@ -75,6 +75,121 @@ console.log(pi);
     console.log(price2);
 }
 
+/* Data type in Javascript 
+    1. Number = 	A number representing a mathematical value
+    2. String = 	A text of characters enclosed in quotes
+    3. Boolean = A data type representing true or false
+    4. Undefine = 	A primitive variable with no assigned value
+    5. Null = 	A primitive value representing object absence
+    6 Biglnt = 	A number representing a large integer
+    7. Symbol = 	A unique and primitive identifier
+    8. Object = A collection of key-value pairs of data
+*/
+
+// String
+let color = "Yellow";
+let lastName = "Johnson";
+
+// Number
+let length = 16;
+let weight = 7.5;
+
+// BigInt
+let x1 = 1234567890123456789012345n;
+let y1 = BigInt(1234567890123456789012345)
+
+// Boolean
+let x4 = true;
+let y4 = false;
+
+// Object
+const person = {firstName:"John", lastName:"Doe"};
+
+// Array object
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Date object
+const date = new Date("2022-03-25");
+
+// Undefined
+let x;
+let y;
+
+// Null
+let x2 = null;
+let y2 = null;
+
+// Symbol
+const x3 = Symbol();
+const y3 = Symbol();
+    
+// Create a const object called "product" to store information show your daraz product 
+const product = {
+    productName: "pen",
+    productPrice: 20,
+    productColor: "black",
+    discount: "5%",
+}
+console.log(product);
+
+//                                  NEW TOPIC
+// Operators in JS
+
+/* Operators are for Mathematical and Logical Computations
+The Assignment Operator = assigns values
+
+The Addition Operator + adds values
+
+The Multiplication Operator * multiplies values
+
+The Comparison Operator > compares values */
+
+// Artimetic Operators
+/* + (add)
+- (sub)
+* (muntiply)
+/ (div)
+% (modulus)
+** (Exponentiation)
+++ (Increment)
+-- (Decrement)
+*/
+let num3 = 10;
+let num4 = 12;
+console.log("num3+num4 =", num3+num4);
+console.log("num3 - num4 =", num3-num4);
+console.log("num3 * num4 =", num3*num4);
+console.log("num3 / num4 =", num3/num4);
+console.log("num3 % num4 =", num3%num4);
+console.log("num3 ** num4 =", num3**num4);
+console.log("num3 ++ num4 =", num3++);
+console.log("num3 -- num4 =", num3--);
+
+// Assignment operators 
+let e = 40;
+e += 40;
+console.log("a =", e);
+
+/* let e = 40;
+e -= 40;
+console.log("a =", e);
+
+let e = 40;
+e %= 40;
+console.log("a =", e);
+
+let e = 40;
+e **= 40;
+console.log("a =", e);
+
+let e = 40;
+e ++= 40;
+console.log("a =", e);
+
+let e = 40;
+e --= 40;
+console.log("a =", e);
+*/
 
 
 
