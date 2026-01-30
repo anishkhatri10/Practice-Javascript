@@ -8,4 +8,6 @@ price = 99.99;
 x = null;
 isFollow = true
 console.log(fulName);
+console.log(x);
+
 
