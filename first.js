@@ -270,6 +270,19 @@ if (num5 %2 === 0 ) {
     console.log("Odd");
 }
 
+// else if statement 
+
+let personAge = 52;
+if (personAge <= 18) {
+    console.log("junior");
+} else if (personAge <= 25) {
+    console.log("middle");
+} else if (personAge <= 35) {
+    console.log("mid senior")
+}else {
+    console.log("senior")
+}
+
 
 
 
