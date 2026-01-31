@@ -193,6 +193,30 @@ console.log("a =", e);
 
 
 
+/*Comparison Operators
+Comparison operators are used to compare two values.
+
+Comparison operators always return true or false.
+
+*/
+// == (Equal to)
+// === (Eqal to & type)
+/* !=  (Not equal to), !== (Not wqual to & type)
+ */
+
+let ab = 52;
+let aa = 12;
+console.log(ab == aa);
+console.log(ab === aa);
+console.log(ab != aa);
+console.log(ab !== aa);
+
+
+
+
+
+
+
 
 
 
