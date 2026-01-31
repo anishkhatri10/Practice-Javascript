@@ -225,6 +225,57 @@ console.log("aaa && bbb =", aaa && bbb);
 console.log("aaa ! bbb =", !(aaa < bbb));
 
 
+// Another topic 
+// Conditional Statement
+
+//if statement
+
+let age4 = 2;
+if (age4 > 18) {
+    console.log("you can vote");
+}
+if (age4 < 18) {
+    console.log("you can not vote");
+}
+
+// new code example
+let mode = "light";
+let color1;
+
+if (mode === "dark") {
+    color1 = "black";
+}
+if (mode === "light") {
+    color1 = "white";
+}
+
+console.log(color1);
+
+
+// if -else statement
+/* if is correct and print this otherwise if is not correct and else is correct and print
+*/
+let age5 = 18;
+if (age5 >= 18) {
+    console.log("you can vote");
+} else {
+    console.log("you can not vote");
+}
+
+//Create the variable and find ood or even ?
+let num5 = 25;
+if (num5 %2 === 0 ) {
+    console.log("Even");
+} else {
+    console.log("Odd");
+}
+
+
+
+
+
+
+
 
 
 
