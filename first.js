@@ -212,6 +212,19 @@ console.log(ab != aa);
 console.log(ab !== aa);
 
 
+// logical operators
+// logical AND (&&)
+// logical OR (||)
+// logical NOT (!)
+
+let aaa = 45;
+let bbb = 44;
+
+console.log("aaa || bbb =", aaa < bbb || aaa === 45);
+console.log("aaa && bbb =", aaa && bbb);
+console.log("aaa ! bbb =", !(aaa < bbb));
+
+
 
 
 
