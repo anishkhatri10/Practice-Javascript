@@ -303,6 +303,34 @@ let age2 = 16;
 let result = age2 >= 18 ? "adult" : "not adult";
 console.log(result);
 
+// Get user to input a number using prompt ("Enter the number "). Check if the number a multiple o 5 or not
+/*
+let num6 = prompt("Enter the number:");
+
+if (num6 % 5 ===0) {
+    console.log(num6, "is multiple of 5");
+ } else {
+    console.log(num6, "is not multiple of 5");
+ }
+*/
+ // Write a code which can give grades to students according to their to their scores:
+ let studentScore = prompt ("Enter the number 0-100");
+ if (studentScore >= 80 && studentScore <= 100) {
+    studentScore = "A";
+ } else if (studentScore >= 70 && studentScore <= 89) {
+    studentScore = "B";
+ } else if (studentScore >= 60 && studentScore <= 69) {
+    studentScore = "C";
+ } else if (studentScore >= 50 && studentScore <= 59) {
+    studentScore = "D";
+ } else if (studentScore >= 0 && studentScore <= 49){
+    studentScore = "E";
+ } else if (studentScore >= 101) {
+    studentScore = "Please enter the bellow 101";
+ }
+
+ console.log(studentScore);
+
 
 
 
