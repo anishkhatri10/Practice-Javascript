@@ -288,7 +288,7 @@ let color2;
 if (mode1 === "dark") {
 color2 = "white";
 } else if (mode1 === "light") {
-    color2 = "black";
+    color2 = "black";y
 } else {
     color2 = "green";
 }
@@ -330,6 +330,18 @@ if (num6 % 5 ===0) {
  }
 
  console.log(studentScore);
+
+
+                                // Loops in JS 
+// loops are the used to execute a piece of code again & again
+
+for (let count = 1; count <= 5; count++) {
+    console.log("Anish khatri");
+}
+
+
+
+
 
 
 
