@@ -282,6 +282,18 @@ if (personAge <= 18) {
 }else {
     console.log("senior")
 }
+// some example for else if statement
+let mode1 = "light";
+let color2;
+if (mode1 === "dark") {
+color2 = "white";
+} else if (mode1 === "light") {
+    color2 = "black";
+} else {
+    color2 = "green";
+}
+console.log(color2);
+
 
 
 
