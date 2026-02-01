@@ -314,7 +314,7 @@ if (num6 % 5 ===0) {
  }
 */
  // Write a code which can give grades to students according to their to their scores:
- let studentScore = prompt ("Enter the number 0-100");
+ /*let studentScore = prompt ("Enter the number 0-100");
  if (studentScore >= 80 && studentScore <= 100) {
     studentScore = "A";
  } else if (studentScore >= 70 && studentScore <= 89) {
@@ -330,6 +330,7 @@ if (num6 % 5 ===0) {
  }
 
  console.log(studentScore);
+ */
 
 
                                 // Loops in JS 
@@ -362,6 +363,29 @@ for (let j = 1; j<=5; j++) {
 
 
 
+
+
+
+
+
+// print all even numbers from 0 to 100
+for (let num7 =0; num7<= 100; num7++) {
+    if (num7 %2 ===0) {
+        console.log("num =", num7);
+    }
+}
+
+
+/* Create a game where you start with any random game number . 
+ Ask the user to keep gussing the game number until the
+ user enters correct value.  */
+
+ let gameNum = 25;
+ let userNum = prompt("Guess the correct number");
+ while(userNum != gameNum) {
+   userNum = prompt("you enter wrong number. Guess Again");
+ }
+ console.log("Congratulation you enter the correct Number");
 
 
 
