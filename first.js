@@ -387,6 +387,8 @@ for (let num7 =0; num7<= 100; num7++) {
  }
  console.log("Congratulation you enter the correct Number");
 
+ // add new code
+
 
 
 
