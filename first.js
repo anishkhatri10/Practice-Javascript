@@ -294,7 +294,14 @@ color2 = "white";
 }
 console.log(color2);
 
+// Ternary Operators
+// condition ? true output : false output
+// age > 18 ? "adult" : "not adult";
 
+
+let age2 = 16;
+let result = age2 >= 18 ? "adult" : "not adult";
+console.log(result);
 
 
 
