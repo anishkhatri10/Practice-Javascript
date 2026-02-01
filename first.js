@@ -334,10 +334,28 @@ if (num6 % 5 ===0) {
 
                                 // Loops in JS 
 // loops are the used to execute a piece of code again & again
+// for loop
 
 for (let count = 1; count <= 5; count++) {
     console.log("Anish khatri");
 }
+
+// calculate sum of 1 to 5
+let sum1 = 0;
+for (let i = 1; i<= 100; i++) {
+    sum1 = sum1 + i;
+}
+console.log(sum1);
+
+for (let j = 1; j<=5; j++) {
+    console.log("j =", j);
+}
+
+// Infinite Loop : A loop that never ends and you use this loop and browser is crash
+
+
+// while loop
+
 
 
 
