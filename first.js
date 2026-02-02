@@ -404,5 +404,36 @@ for (let num7 =0; num7<= 100; num7++) {
 
 
 
+ // String in JS 
+ // String is a sequence of characters used to represent text
+
+ let str = "anish khatri";
+let str1 = 'anish';
+console.log(str);
+console.log(str[6]);
+
+// Template Literals
+let obj = {
+    item: "pen",
+    price: 10,
+};
+let output = `The cost of ${obj.item} is ${obj.price} rupees`;
+console.log(output);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
