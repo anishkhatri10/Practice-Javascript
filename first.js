@@ -413,6 +413,10 @@ console.log(str);
 console.log(str[6]);
 
 // Template Literals
+// A way to have embedded expression in strings
+
+// String Interpolation 
+// To create by doing substitution of placeholders
 let obj = {
     item: "pen",
     price: 10,
@@ -420,9 +424,19 @@ let obj = {
 let output = `The cost of ${obj.item} is ${obj.price} rupees`;
 console.log(output);
 
+// another code for this topic
 
+let specialString = `this a Number ${1+2+3+58}`;
+console.log(specialString);
 
+// Escape in string 
+console.log("add the new feature \n Add the new feature");
 
+// string methods in JS 
+// these are built-in functions to manipulate  a string
+ 
+let str3 = "Anish khstri";
+console.log(str3);
 
 
 
