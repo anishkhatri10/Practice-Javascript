@@ -450,7 +450,7 @@ let str5 = "khatri"
 let res = str4.concat(str5);
 console.log(res);
 
-// Arrays
+// Arrays in js 
 
 
 
