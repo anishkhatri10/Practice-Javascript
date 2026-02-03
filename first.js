@@ -95,8 +95,8 @@ let length = 16;
 let weight = 7.5;
 
 // BigInt
-let x1 = 1234567890123456789012345n;
-let y1 = BigInt(1234567890123456789012345)
+let x1 = 1234567890123456789012345;
+let y1 = BigInt(78345)
 
 // Boolean
 let x4 = true;
@@ -437,6 +437,18 @@ console.log("add the new feature \n Add the new feature");
  
 let str3 = "Anish khstri";
 console.log(str3);
+
+
+
+
+
+
+
+// string method
+let str4 = "anish";
+let str5 = "khatri"
+let res = str4.concat(str5);
+console.log(res);
 
 
 
