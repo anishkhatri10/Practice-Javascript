@@ -14,3 +14,24 @@ Here are the main parts of this project:
 This project uses:
 - HTML = for web page structure and run javascript.
 - JavaScript = main language for practice
+
+# 🧩 Practice Ideas
+Here are a few examples of things you can add or practice:
+- Output text using alert(), console.log()
+- Manipulate HTML elements with JavaScript
+- Practice loops and conditions
+- Create small functions
+- Build mini tools (like calculator or form validation) in the browser
+
+# 📈 Learning Tips
+If you want project ideas or ways to extend this repo, you can:
+- 🔥 Add more JS files with problems grouped by topic
+- 🔥 Organize code into folders like basics/, dom/, functions/
+- 🔥 Include comments explaining each snippet
+
+# 📄 License
+This project is open for learning and personal use.
+
+# 👤 About the Author
+Created and maintained by Anish Khatri — a developer practicing and learning JavaScript.
+
