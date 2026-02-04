@@ -500,6 +500,28 @@ for (let val of marks ) {
 let avg = sum / marks1.length;
 console.log(`the average of this number is = ${avg}`);
 
+// second Question
+// For a given array with price of 5 items = [250,645,300,900,50] All items have an offer of 10% OFF on them . Change the array to store final price after appling offer
+
+let price2 = [250,645,300,900,50];
+let i = 0;
+for(let val of price2) {
+    console.log(`value at index ${i} = ${val}`);
+    let offer = val / 10;
+    price2[i] = price2[i] - offer;
+    console.log(`The discount price2 = ${price2[i]}`);
+    i++;
+}
+
+// for loop method for same coding
+let price3 = [250,645,300,900,50];
+for (let i = 0; i < price3.length; i++) {
+     let offer1 = price3[i] / 10;
+     price3[i] -= offer1;
+}
+console.log(price3);
+ 
+
 
 
 
