@@ -33,5 +33,5 @@ If you want project ideas or ways to extend this repo, you can:
 This project is open for learning and personal use.
 
 # 👤 About the Author
-Created and maintained by Anish Khatri — a developer practicing and learning JavaScript.
+Created and maintained by Anish Khatri a developer practicing and learning JavaScript.
 
