@@ -520,6 +520,7 @@ for (let i = 0; i < price3.length; i++) {
      price3[i] -= offer1;
 }
 console.log(price3);
+
  
 
 
