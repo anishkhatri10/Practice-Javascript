@@ -452,14 +452,53 @@ console.log(res);
 
 // Arrays in js 
 
+// Arrays are use the store sampe data 
+// using this example of loop in arrys 
+
+let heroes = ["ironman","batman", "Spiderman", "ironman","batman", "Spiderman","ironman","batman", "Spiderman","ironman","batman", "Spiderman","ironman","batman", "Spiderman","ironman","batman", "Spiderman","ironman","batman", "Spiderman","ironman","batman", "Spiderman","ironman","batman", "Spiderman"];
+for(let idx=0; idx <= heroes.length; idx++){
+    console.log(heroes[idx]);
+}
 
 
+let info = ["anish khatri", 86 , "KTM"];
+console.log(info);
+
+// for of looping method
+for(let hero of heroes) {
+    console.log(hero);
+}
 
 
+let cities = ["kathmandu", "pokhara", "okhaldhunga", "kathamndu"];
+
+for(let city of cities) {
+    console.log(city);
+    console.log(city.toUpperCase())
+}
+
+// Practice
+// For a given arrys with marks of student = [85,97,44,89,76,60] Find the average marks of the entire class
+
+let marks = [85,97,44,89,76,60];
+let lowest = marks[0];
+for(let i = 1; i < marks.length; i++) {
+    if (marks[i] < lowest) {
+        lowest = marks[i];
+    }
+}
+console.log(lowest);
 
 
+// For a given array with marks of student = [85,97,44,37,76,60,25,45,45,45,66,89,77,45,10,12,45,89,77,55,71] find the average marks of the entire class.
+let marks1 = [85,97,44,37,76,60,25,45,45,45,66,89,77,45,10,12,45,89,77,55,71];
+let sum2 = 0;
+for (let val of marks ) {
+    sum += val;
+}
 
-
+let avg = sum / marks1.length;
+console.log(`the average of this number is = ${avg}`);
 
 
 
