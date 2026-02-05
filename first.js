@@ -522,6 +522,8 @@ for (let i = 0; i < price3.length; i++) {
 console.log(price3);
 
 
+
+
  
 
 
