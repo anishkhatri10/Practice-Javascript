@@ -521,9 +521,56 @@ for (let i = 0; i < price3.length; i++) {
 }
 console.log(price3);
 
+// Arrays in JS 
+// 1 = Push(): add to end
+// 2 = pop(): delete from end & return
+// 3 = toString() : converts array to string
+
+
+// push () sample code
+let veggies = ["potato", "tomato", "chilly"];
+veggies.push("cucumber");
+console.log(veggies);
+
+// pop() 
+let veggies1 = ["potato", "tomato", "chilly"];
+let deletedItem = veggies1.pop();
+console.log(veggies1);
+console.log("deleted", deletedItem);
+
+//toString()
+let veggies2 = ["potato", "tomato", "chilly"];
+console.log(veggies2);
+console.log(veggies2.toString());
 
 
 
+// Function in JS
+// Block of code that performs a specific task, can be invoked whenever needed
+
+function myFunction() {
+    console.log("Hello world");
+    console.log("Anish");
+}
+myFunction();
+myFunction();
+myFunction();
+myFunction();
+myFunction();
+
+
+function fuName(msg) { // parameter -> input
+    console.log(msg)
+}
+fuName("hi i am fronted developer"); // argument
+
+
+// create the function = 2 numbers , sum
+
+function sum3(x, y) {
+    console.log(x + y);
+}
+sum3(415+55);
  
 
 
