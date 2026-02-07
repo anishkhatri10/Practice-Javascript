@@ -574,7 +574,8 @@ function sum3(x, y, z) {
 sum3(100,100,100);
 
 // new code 
-function sum4(x,y) { // this act like local variable and this variable work in curly bracket
+function sum4(x,y) { // this act like local variable and this variable work in curly bracket 
+    // block scope
     s = x + y;
     console.log(x);
     return s;
@@ -583,6 +584,39 @@ let re = sum4(3,4);
 console.log(re);
 
 
+
+function add1(a,b) { 
+    return a+b;
+}
+
+function div(a,b) {
+    return a/b;
+}
+
+
+// Arrow Functiom
+// Compact way of writting a function
+
+function sum5(a,b) { 
+    return a+b;
+}
+const vau = (a,b) => {
+    console.log(a + b);
+};
+
+
+
+function div1(a,b) {
+    return a/b;
+}
+const vau1 = (a,b) => {
+    console.log(a / b);
+};
+
+function mul(a,b) {
+    return a*b;
+}
+const vau2 = (a,b)
 
 
 
