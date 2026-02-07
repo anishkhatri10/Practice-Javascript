@@ -557,6 +557,7 @@ myFunction();
 myFunction();
 myFunction();
 myFunction();
+myFunction();
 
 
 function fuName(msg) { // parameter -> input
@@ -565,13 +566,23 @@ function fuName(msg) { // parameter -> input
 fuName("hi i am fronted developer"); // argument
 
 
-// create the function = 2 numbers , sum
+// create the function = 2 numbers , sum the number and find the output and print in console
 
-function sum3(x, y) {
-    console.log(x + y);
+function sum3(x, y, z) {
+    console.log(x + y + z);
 }
-sum3(415+55);
- 
+sum3(100,100,100);
+
+// new code 
+function sum4(x,y) { // this act like local variable and this variable work in curly bracket
+    s = x + y;
+    console.log(x);
+    return s;
+}
+let re = sum4(3,4);
+console.log(re);
+
+
 
 
 
