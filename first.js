@@ -618,10 +618,35 @@ function mul(a,b) {
 }
 const vau2 = (a,b)
 
-// add new feature
+// add new code
 
 
 
 
 
+function bName(numbers1, numbers2) {
+    console.log(numbers1 + numbers2);
+
+}
+bName(10, "100")
+
+//more code 
+function bNum(ab , bc) {
+    console.log(ab + bc);
+    return;
+}
+bNum(10, 10)
+
+// Practic Question 
+//  Create a function using the "function" keyword that takes a string as an argument & returns the number of vowels in the string.
+
+function countVowels(str6) {
+ let count = 0;
+ for (const char of str6) {
+    if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
+        count++;
+    }
+ }
+ console.log(count);
+}
 
