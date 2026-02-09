@@ -650,3 +650,15 @@ function countVowels(str6) {
  console.log(count);
 }
 
+// Create an arrow function to perform the same task.
+// you do this problem ????
+
+
+
+
+// and add some code for function 
+function aNum(ll , llab) {
+    return ll + llab;
+}
+aNum(10, 10000,)
+
