@@ -662,3 +662,19 @@ function aNum(ll , llab) {
 }
 aNum(10, 10000,)
 
+
+// some more Array Methods
+// Map 
+// Create a new array with the results of some operation. the value its callback returns are used to form new array
+let nums = [41, 42, 45 ];
+nums.map((val) => {
+console.log(val);
+} )
+
+// create new array using map
+let nums1 = [10,25,85,];
+
+let newArr = nums1.map((val1) => {
+    return val1;
+})
+console.log(newArr);
