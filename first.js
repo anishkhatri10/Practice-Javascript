@@ -678,3 +678,41 @@ let newArr = nums1.map((val1) => {
     return val1;
 })
 console.log(newArr);
+
+
+
+
+// DOM in HTML
+
+console.dir(document);
+console.dir(document.body);
+console.dir(document.head);
+
+
+// DOM Manipulation
+// selecting with ID
+
+let anish = document.getElementById("anish");
+console.dir(anish);
+
+
+//Selecting with class
+
+let anish1 = document.getElementsByClassName("anish1");
+console.dir(anish1);
+
+// Selecting with tag
+
+let parahs = document.getElementsByTagName("p");
+console.dir(parahs);
+
+// Query Selector
+let el = document.querySelector("p");
+console.dir(el);
+
+
+let pl = document.querySelector("div");
+console.dir(pl);
+
+
+
