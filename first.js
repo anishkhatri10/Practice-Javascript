@@ -703,7 +703,7 @@ console.dir(anish1);
 
 // Selecting with tag
 
-let parahs = document.getElementsByTagName("p");
+/*let parahs = document.getElementsByTagName("p");
 console.dir(parahs);
 
 // Query Selector
@@ -712,7 +712,62 @@ console.dir(el);
 
 
 let pl = document.querySelector("div");
-console.dir(pl);
+console.dir(pl); */
+
+
+
+// Create a H2 heading element with text - "Hello JavaScript". Append "from  College Student" to this text using JS.
+let h2 = document.getElementsByTagName("h2")[0];
+console.dir(h2.innerText);
+h2.innerText = h2.innerText + "from College Student";
+
+
+// create the p element using the Javascript
+
+const newPara = document.createElement("p");
+newPara.textContent = "I am learning javascript DOM";
+document.body.appendChild(newPara);
+
+
+// Create the h1 ta in html ans using the JS and wlecome to the my webpage
+
+let h1 = document.querySelector("h1");
+h1.textContent = h1.textContent + "to my website";
+
+//Create 3 <li> elements using JavaScript:
+
+let ul = document.createElement("ul");
+
+
+let li1 = document.createElement("li");
+li1.innerText = "HTML";
+
+let li2 = document.createElement("li");
+li2.innerText = "CSS";
+
+let li3 = document.createElement("li");
+li3.innerText = "JavaScript";
+
+ul.appendChild(li1);
+ul.appendChild(li2);
+ul.appendChild(li3);
+
+document.body.appendChild(ul);
+
+
+//Create 3 divs with common class name "box" Access them & add some uniqu text to each of them
+
+let divs = document.getElementsByClassName("box");
+divs[0].innerText = "Hi iam a Div1";
+divs[1].innerText = "Hi iam a Div2";
+divs[2].innerText = "Hi iam a Div3";
+
+
+
+
+
+
+
 
 
 
