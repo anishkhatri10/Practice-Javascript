@@ -762,6 +762,35 @@ divs[0].innerText = "Hi iam a Div1";
 divs[1].innerText = "Hi iam a Div2";
 divs[2].innerText = "Hi iam a Div3";
 
+// new method same problem
+/*let divs = document.getElementsByClassName("box");
+let idx = 1;
+for(div of divs) {
+    divs.innerText = `new unique value ${idx}`;
+    idx++;
+}
+    */
+
+// DOM part 2
+
+// DOM Manipulation
+// Attributes 
+// getattribute(attr) = to get the attribute value
+// setAttribute(attr, value) = to set the attribute value th
+let biv = document.querySelector("p");
+console.log(biv.setAttribute("class","anish"));
+
+// Style 
+// node.style
+
+let vitt = document.querySelector("h3");
+vitt.style.backgroundColor="green";
+vitt.style.fontSize = "50px";
+vitt.style.width = "522px";
+vitt.style.height = "300px";
+vitt.innerText = "Anish khatri";
+
+// Insert Elements
 
 
 

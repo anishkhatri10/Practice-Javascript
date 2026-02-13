@@ -14,3 +14,9 @@ body {
     border: solid;
     color: black;
 }
+h3 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: black;
+}
