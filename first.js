@@ -793,12 +793,26 @@ vitt.innerText = "Anish khatri";
 // Insert Elements
 
 let nbtn = document.createElement("button");
-console.log(nbtn);
+nbtn.innerText = "Click Me";
+nbtn.style.backgroundColor = "green";
+nbtn.style.color = "white";
+nbtn.style.height = "50px";
+nbtn.style.width = "100px";
+nbtn.style.borderRadius = "20px";
+document.body.appendChild(nbtn);
+
+let bt = document.querySelector("#anish");
+bt.after(nbtn);
 
 
+// Create a new button element . Give it a text "Click Me!", background color of red & text xolor of white.
+// Insert the button as the first element inside the body tag
 
+let newbtn = document.createElement("button");
+newbtn.innerText = "Click Me!";
+newbtn.style.backgroundColor = "red";
+newbtn.style.color = "white";
 
-
-
-
+let abx = document.querySelector("body");
+abx.before(newbtn);
 
