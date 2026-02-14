@@ -792,6 +792,8 @@ vitt.innerText = "Anish khatri";
 
 // Insert Elements
 
+let nbtn = document.createElement("button");
+console.log(nbtn);
 
 
 
