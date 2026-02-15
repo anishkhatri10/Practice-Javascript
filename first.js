@@ -816,3 +816,15 @@ newbtn.style.color = "white";
 let abx = document.querySelector("body");
 abx.before(newbtn);
 
+// Event in JS
+// The change in the state of an object is known as an event
+// Events are fired to notify code of " interesting changes" that may affect code execution.
+
+// Mouse events (Click, double click etc)
+// Keybord events (keypress, keyup, keydown)
+// Form events (submit etc);
+// print event and many more 
+
+
+let bbt = document.querySelector("abb");
+bbt.onclick =()
