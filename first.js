@@ -838,6 +838,19 @@ bbt.onclick =() => {
 let bbc = document.querySelector(".box");
 bbc.onmouseover = (evt) => {
     console.log(evt);
-    
 }
+
+let mod = document.querySelector(".mode");
+let currentMode = "Light";
+mod.addEventListener("click", () => {
+    if(currentMode === "Light"){
+        currentMode = "Dark";
+        document.querySelector("body").style.backgroundColor = "black";
+    } else {
+        currentMode = "Light";
+        document.querySelector("body").style.backgroundColor = "white";
+    }
+    console.log(currentMode);
+
+});
 
