@@ -826,5 +826,18 @@ abx.before(newbtn);
 // print event and many more 
 
 
-let bbt = document.querySelector("abb");
-bbt.onclick =()
+let bbt = document.querySelector(".abb");
+bbt.onclick =() => {
+    console.log("btn is clicked");
+    let ba1 = 25;
+    ba1++;
+    console.log(ba1);
+
+};
+
+let bbc = document.querySelector(".box");
+bbc.onmouseover = (evt) => {
+    console.log(evt);
+    
+}
+
